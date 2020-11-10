@@ -113,6 +113,9 @@ footer {
     .aside {
         display: none;
     }
+    button {
+        display: none;
+    }
 }
 
 @media (max-width: 600px) {
@@ -140,4 +143,9 @@ li:hover {
 
 .block::selection {
     color: green;
+}
+
+button {
+    float: right;
+    margin-top: 15px;
 }
