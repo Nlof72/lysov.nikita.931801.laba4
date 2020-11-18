@@ -2,6 +2,8 @@ html,
 body {
     padding: 0;
     margin: 0;
+    font-family: arial;
+    font-size: 13px;
 }
 
 #web {
@@ -20,6 +22,7 @@ header {
     height: 40px;
     position: fixed;
     width: 100%;
+    z-index: 5;
 }
 
 nav {
@@ -107,6 +110,7 @@ footer {
     padding-left: 10px;
     margin-left: -10px;
     margin-right: -10px;
+    z-index: 1;
 }
 
 @media (max-width: 1000px) {
@@ -148,4 +152,8 @@ li:hover {
 button {
     float: right;
     margin-top: 15px;
+}
+
+form {
+    display: inline;
 }
