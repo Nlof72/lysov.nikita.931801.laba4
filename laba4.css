@@ -64,6 +64,7 @@ p {
     text-align: left;
     margin-left: 1100px;
     position: fixed;
+    margin-top: 10px;
 }
 
 .flex-container {
